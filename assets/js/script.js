@@ -24,6 +24,7 @@ let arraySounds = [
 
 console.log(btnSound);
  for (let i = 0; i < btnSound.length; i++) {
+    document.getElementsByClassName("nameSound")[i].innerHTML = arraySounds[i].replace("assets/sounds/", "").replace(".mp3", "");
     btnSound[i].addEventListener("click", function () {
         const sound = document.createElement("audio");
         sound.src = arraySounds[i];

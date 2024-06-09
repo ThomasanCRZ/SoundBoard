@@ -11901,6 +11901,12 @@ button:active {
   box-shadow: inset 4px 4px 12px #000, inset -4px -4px 12px #1f1f1f;
 }
 
+.btnSound {
+  width: 200px;
+  height: 200px;
+  max-width: 200px;
+}
+
 .loader {
   display: none;
   align-items: center;

@@ -78,6 +78,7 @@
                                         <span class="bar"></span>
                                         <span class="bar"></span>
                                     </div>
+                                    <div class="nameSound"></div>
                             </button>
                         </div>
                         <?php $i++; } ?>
